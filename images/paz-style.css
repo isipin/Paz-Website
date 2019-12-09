@@ -1,0 +1,137 @@
+/* Styles go here */
+
+
+
+.header {
+  box-sizing: border-box;
+  width: 900px;
+  height: 9em;
+  margin: auto;
+  direction: rtl;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: grey;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: left;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:grey;
+      }
+      
+      li {
+        float: center;
+        border-left:1px light-grey;
+      }
+      
+      li:last-child {
+        border-left: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+
+
+.header-b {
+    box-sizing: border-box;
+    width: 900px;
+    height: 9em;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+}
+
+.header-b > div {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  background-color: grey;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+.footer {
+  float:center;
+  width: 900px;
+  height: 3em;
+  background-color: yellow;
+  margin: auto;
+  position: fixed;
+  bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
