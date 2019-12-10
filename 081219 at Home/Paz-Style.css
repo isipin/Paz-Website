@@ -40,10 +40,10 @@ li {
 }
 
 .footer {
-/*  display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   position: fixed
-  /*width: 100%;*/
+  width: 100%;
   left: 0;
   bottom: 0;
   text-align: center;
@@ -52,7 +52,6 @@ li {
   }
 
 
-/*
+
 #pazomat {color: red;
 }
-*/
