@@ -9,11 +9,18 @@
   background-color: grey;
   }
 
+.search-container {
+  border: 8px; 900px; 8px; 8px;
+}
+
+.navbar{ 
+display: flex;
+justify-content: center;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
-   
 }
 
 li {
@@ -33,11 +40,19 @@ li {
 }
 
 .footer {
-  display: flex;
+/*  display: flex;
+  justify-content: center; */
   position: fixed
-  width: 100%;
+  /*width: 100%;*/
+  left: 0;
+  bottom: 0;
+  text-align: center;
   height: 38px;
-  bottom: 0px;
-  background-color: grey;
-  padding: 0px;
+  background-color: grey;  
+  }
+
+
+/*
+#pazomat {color: red;
 }
+*/
