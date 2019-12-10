@@ -1,46 +1,81 @@
 /* Styles go here */
 
-* {direction: rtl;}
+*{direction: rtl;
+  margin: 0px;
+}
+
+
 
 .header {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 105px;
-  align-content: flex-end;
-  margin: 0px;
-  
   background-color: grey;
   }
 
+  .logo {
+    float: right;
+    position: absolute;
+    right: 220px;
+    top: 30px;
+  }
+  .search-container.lang {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  top: 10px;
+  }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+  .navbar { 
+  /*display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;*/
+  position: absolute;
+  box-align: center;
+  top: 60px;
+  }
 
-li {
-  display: inline;
-}
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    padding: 5px 10px;
+  }
 
 .main pic-row-1 {
-  display: flex;
-  justify-content: flex-center;
+  /*display: flex;
+  justify-content: center;*/
   width: 900px;
+  position: absolute;
+  align: center;
 }
 
 .main pic-row-2 {
   display: flex;
-  justify-content: flex-center;
+  justify-content: center;
   width: 900px;
 }
 
 .footer {
   display: flex;
-  position: fixed
+  justify-content: center;
+  position: sticky;
   width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
   height: 38px;
-  bottom: 0px;
-  background-color: grey;
-  padding: 0px;
+  background-color: grey;  
+  }
+
+
+
+#pazomat {color: red;
 }
